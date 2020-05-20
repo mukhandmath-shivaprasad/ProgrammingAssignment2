@@ -9,7 +9,6 @@ makeCacheMatrix <- function(x = matrix()) {
         set <- function(y) {
         
         x <<- y
-        
         matinv <<- NULL
   }
   
