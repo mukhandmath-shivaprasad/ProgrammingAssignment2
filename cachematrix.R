@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## Author Shivaprasad M; Dt: 20/May/2020
+
 makeCacheMatrix <- function(x = matrix()) {
         matinv <- NULL
         
@@ -30,6 +32,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # If the inverse has already been calculated (and the matrix has not changed), 
 # then the cachesolve should retrieve the inverse from the cache.
 
+## Author Shivaprasad M; Dt: 20/May/2020
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
